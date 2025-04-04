@@ -30,8 +30,6 @@ Lazy
 }
 ```
 
-Then run `:PlugInstall` to install the plugin.
-
 ## Usage
 
 Once installed, you can open the sidebar by running the command:
@@ -60,4 +58,4 @@ To quickly toggle the sidebar, you can create a key mapping in your configuratio
 vim.api.nvim_set_keymap('n', '<leader>S', ':SidebarToggle<CR>', { noremap = true, silent = true })
 ```
 
-This will allow you to open and close the sidebar using `<leader>s`.
+This will allow you to open and close the sidebar using `<leader>S`.
