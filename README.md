@@ -1,6 +1,8 @@
-# ss.nvim
+# ss.nvim (Search Sidebar Neovim Plugin)
 
-Search Sidebar
+Search Sidebar Neovim Plugin is a simple and lightweight plugin that provides a sidebar for displaying search results in VSCode-style. It is designed to be easy to use and integrate into your existing Neovim setup.
+
+<img src="./static/1.png" alt="ss.nvim" width="100%"/>
 
 ## Installation
 
@@ -34,21 +36,20 @@ Lazy
 
 Once installed, you can open the sidebar by running the command:
 
-```
-:SidebarOpen
+```bash
+<leader>S
 ```
 
 To close the sidebar, use the command:
 
+```bash
+q  or  <leader>S
 ```
-:SidebarClose
-```
 
-The sidebar will display the text 'HELLO' when opened.
+Hover on `Search query:` and press `i` to enter insert mode. Type your search query and press `s` to search. The results will be displayed in the sidebar.
 
-## Configuration
-
-You can customize the sidebar's behavior by modifying the settings in `lua/sidebar/config.lua`. This may include key mappings or other options to enhance your experience.
+`Include files:` press `i` to enter insert mode and type the file names, or dirrectories you want to include in the search. Press `s` to search.
+`Exclude files:` press `i` to enter insert mode and type the file names, or directories you want to exclude in the search. Press `s` to search.
 
 ## Example
 
